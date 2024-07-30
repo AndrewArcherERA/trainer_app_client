@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3000 2000" preserveAspectRatio="xMidYMid" width="3000" height="2000" style="shape-rendering: auto; display: block; background: rgb(255, 255, 255);" xmlns:xlink="http://www.w3.org/1999/xlink"><g><defs>
+  <filter height="406.06" width="6.06" y="-3.03" x="-3.03" filterUnits="userSpaceOnUse" id="f-3iocv4djaze">
+    <feGaussianBlur result="blur1" stdDeviation="1.50"></feGaussianBlur>
+    <feMorphology result="dilate" in="SourceGraphic" radius="0.38" operator="dilate"></feMorphology>
+    <feComponentTransfer result="dark" in="dilate">
+    <feFuncR slope="0.33" type="linear"></feFuncR>
+    <feFuncG slope="0.33" type="linear"></feFuncG>
+    <feFuncB slope="0.33" type="linear"></feFuncB>
+    </feComponentTransfer>
+    <feGaussianBlur result="blur2" in="dark" stdDeviation="0.75"></feGaussianBlur>
+    <feMerge>
+      <feMergeNode in="blur1"></feMergeNode>
+      <feMergeNode in="blur2"></feMergeNode>
+      <feMergeNode in="SourceGraphic"></feMergeNode>
+    </feMerge>
+  </filter>
+</defs><path stroke-width="0.6" stroke="#f7f7f7" d="M414.71 0L414.71 2000"></path>
+<path filter="url(#f-3iocv4djaze)" fill="#cccccc" d="M0 0L-1.53 400 A1.53 1.53 0 0 0 1.53 400 Z">
+<animateTransform begin="-2.46s" keyTimes="0;1" values="414.71 -406.06;414.71 2000" repeatCount="indefinite" dur="7.14s" type="translate" attributeName="transform"></animateTransform>
+</path><path stroke-width="0.6" stroke="#f7f7f7" d="M559.41 0L559.41 2000"></path>
+<path filter="url(#f-3iocv4djaze)" fill="#636363" d="M0 0L-1.53 400 A1.53 1.53 0 0 0 1.53 400 Z">
+<animateTransform begin="-1.10s" keyTimes="0;1" values="559.41 -406.06;559.41 2000" repeatCount="indefinite" dur="4.76s" type="translate" attributeName="transform"></animateTransform>
+</path><path stroke-width="0.6" stroke="#f7f7f7" d="M704.12 0L704.12 2000"></path>
+<path filter="url(#f-3iocv4djaze)" fill="#cccccc" d="M0 0L-1.53 400 A1.53 1.53 0 0 0 1.53 400 Z">
+<animateTransform begin="-0.85s" keyTimes="0;1" values="704.12 -406.06;704.12 2000" repeatCount="indefinite" dur="4.76s" type="translate" attributeName="transform"></animateTransform>
+</path><path stroke-width="0.6" stroke="#f7f7f7" d="M848.82 0L848.82 2000"></path>
+<path filter="url(#f-3iocv4djaze)" fill="#cccccc" d="M0 0L-1.53 400 A1.53 1.53 0 0 0 1.53 400 Z">
+<animateTransform begin="-0.35s" keyTimes="0;1" values="848.82 -406.06;848.82 2000" repeatCount="indefinite" dur="4.76s" type="translate" attributeName="transform"></animateTransform>
+</path><path stroke-width="0.6" stroke="#f7f7f7" d="M993.53 0L993.53 2000"></path>
+<path filter="url(#f-3iocv4djaze)" fill="#cccccc" d="M0 0L-1.53 400 A1.53 1.53 0 0 0 1.53 400 Z">
+<animateTransform begin="-13.06s" keyTimes="0;1" values="993.53 -406.06;993.53 2000" repeatCount="indefinite" dur="14.29s" type="translate" attributeName="transform"></animateTransform>
+</path><path stroke-width="0.6" stroke="#f7f7f7" d="M1138.24 0L1138.24 2000"></path>
+<path filter="url(#f-3iocv4djaze)" fill="#252525" d="M0 0L-1.53 400 A1.53 1.53 0 0 0 1.53 400 Z">
+<animateTransform begin="-2.44s" keyTimes="0;1" values="1138.24 -406.06;1138.24 2000" repeatCount="indefinite" dur="4.76s" type="translate" attributeName="transform"></animateTransform>
+</path><path stroke-width="0.6" stroke="#f7f7f7" d="M1282.94 0L1282.94 2000"></path>
+<path filter="url(#f-3iocv4djaze)" fill="#252525" d="M0 0L-1.53 400 A1.53 1.53 0 0 0 1.53 400 Z">
+<animateTransform begin="-1.32s" keyTimes="0;1" values="1282.94 -406.06;1282.94 2000" repeatCount="indefinite" dur="4.76s" type="translate" attributeName="transform"></animateTransform>
+</path><path stroke-width="0.6" stroke="#f7f7f7" d="M1427.65 0L1427.65 2000"></path>
+<path filter="url(#f-3iocv4djaze)" fill="#969696" d="M0 0L-1.53 400 A1.53 1.53 0 0 0 1.53 400 Z">
+<animateTransform begin="-1.73s" keyTimes="0;1" values="1427.65 -406.06;1427.65 2000" repeatCount="indefinite" dur="7.14s" type="translate" attributeName="transform"></animateTransform>
+</path><path stroke-width="0.6" stroke="#f7f7f7" d="M1572.35 0L1572.35 2000"></path>
+<path filter="url(#f-3iocv4djaze)" fill="#969696" d="M0 0L-1.53 400 A1.53 1.53 0 0 0 1.53 400 Z">
+<animateTransform begin="-8.73s" keyTimes="0;1" values="1572.35 -406.06;1572.35 2000" repeatCount="indefinite" dur="14.29s" type="translate" attributeName="transform"></animateTransform>
+</path><path stroke-width="0.6" stroke="#f7f7f7" d="M1717.06 0L1717.06 2000"></path>
+<path filter="url(#f-3iocv4djaze)" fill="#cccccc" d="M0 0L-1.53 400 A1.53 1.53 0 0 0 1.53 400 Z">
+<animateTransform begin="-9.53s" keyTimes="0;1" values="1717.06 -406.06;1717.06 2000" repeatCount="indefinite" dur="14.29s" type="translate" attributeName="transform"></animateTransform>
+</path><path stroke-width="0.6" stroke="#f7f7f7" d="M1861.76 0L1861.76 2000"></path>
+<path filter="url(#f-3iocv4djaze)" fill="#969696" d="M0 0L-1.53 400 A1.53 1.53 0 0 0 1.53 400 Z">
+<animateTransform begin="-1.47s" keyTimes="0;1" values="1861.76 -406.06;1861.76 2000" repeatCount="indefinite" dur="14.29s" type="translate" attributeName="transform"></animateTransform>
+</path><path stroke-width="0.6" stroke="#f7f7f7" d="M2006.47 0L2006.47 2000"></path>
+<path filter="url(#f-3iocv4djaze)" fill="#636363" d="M0 0L-1.53 400 A1.53 1.53 0 0 0 1.53 400 Z">
+<animateTransform begin="-4.70s" keyTimes="0;1" values="2006.47 -406.06;2006.47 2000" repeatCount="indefinite" dur="4.76s" type="translate" attributeName="transform"></animateTransform>
+</path><path stroke-width="0.6" stroke="#f7f7f7" d="M2151.18 0L2151.18 2000"></path>
+<path filter="url(#f-3iocv4djaze)" fill="#969696" d="M0 0L-1.53 400 A1.53 1.53 0 0 0 1.53 400 Z">
+<animateTransform begin="-6.97s" keyTimes="0;1" values="2151.18 -406.06;2151.18 2000" repeatCount="indefinite" dur="14.29s" type="translate" attributeName="transform"></animateTransform>
+</path><path stroke-width="0.6" stroke="#f7f7f7" d="M2295.88 0L2295.88 2000"></path>
+<path filter="url(#f-3iocv4djaze)" fill="#252525" d="M0 0L-1.53 400 A1.53 1.53 0 0 0 1.53 400 Z">
+<animateTransform begin="-0.95s" keyTimes="0;1" values="2295.88 -406.06;2295.88 2000" repeatCount="indefinite" dur="4.76s" type="translate" attributeName="transform"></animateTransform>
+</path><path stroke-width="0.6" stroke="#f7f7f7" d="M2440.59 0L2440.59 2000"></path>
+<path filter="url(#f-3iocv4djaze)" fill="#252525" d="M0 0L-1.53 400 A1.53 1.53 0 0 0 1.53 400 Z">
+<animateTransform begin="-3.18s" keyTimes="0;1" values="2440.59 -406.06;2440.59 2000" repeatCount="indefinite" dur="7.14s" type="translate" attributeName="transform"></animateTransform>
+</path><path stroke-width="0.6" stroke="#f7f7f7" d="M2585.29 0L2585.29 2000"></path>
+<path filter="url(#f-3iocv4djaze)" fill="#636363" d="M0 0L-1.53 400 A1.53 1.53 0 0 0 1.53 400 Z">
+<animateTransform begin="-0.01s" keyTimes="0;1" values="2585.29 -406.06;2585.29 2000" repeatCount="indefinite" dur="4.76s" type="translate" attributeName="transform"></animateTransform>
+</path><g></g></g><!-- [ldio] generated by https://loading.io --></svg>

@@ -22,7 +22,7 @@ function Login() {
     };
 
     return (
-        <Box sx={{backgroundImage: `${background}`, backgroundSize: 'cover', backgroundPosition: 'center'}}>
+        <Box >
             <form>
                 <Box width={"500px"}>
                     <img src={logo} className={styles.logo} alt="logo" />

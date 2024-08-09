@@ -1,5 +1,29 @@
 import { createAsyncThunk, createSlice } from "@reduxjs/toolkit";
 import axios from "axios";
+import bcrypt from "bcryptjs";
+
+export const register = createAsyncThunk(
+    "user/register",
+    async (data, thunkAPI) => {
+        const hashPass = bcrypt.hashSync(data.data.hashed_pass, 10);
+        data.data.hashed_pass = hashPass;
+        try{
+            let config = {
+                method: 'post',
+                maxBodyLength: Infinity,
+                url:"http://localhost:8080/users/register",
+                headers: {
+                    Authorization: "Basic Og==",
+                },
+                data: data
+            };
+            const response = await axios.request(config);
+        } catch (error){
+            return thunkAPI.rejectWithValue({ error: error.message });
+        }
+    }
+)
+
 
 const initialState = {
     data: {
@@ -17,7 +41,7 @@ const initialState = {
 };
 
 const userSlice = createSlice({
-  name: 'user',
+name: 'user',
     initialState,
     reducers: {
         logoutUser: (state) => {
@@ -25,7 +49,20 @@ const userSlice = createSlice({
             state.isLoggedIn = false;
         },
     },
-    extraReducers: (builder) => {},
+    extraReducers: (builder) => {
+        builder
+      .addCase(register.pending, (state, action) => {
+        state.loading = true;
+      })
+      .addCase(register.fulfilled, (state, action) => {
+        state.loading = false;
+      })
+      .addCase(register.rejected, (state, action) => {
+        console.log(action.payload)
+        state.error = action.payload;
+        state.loading = false;
+      })
+    },
 });
 
 export const {} = userSlice.actions;
